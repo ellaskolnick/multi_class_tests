@@ -20,6 +20,16 @@ DiaryEntry:
 
 # returns new reading chunk that fits the given parameters
 
+# retruns 0 if string is emtpy
+
+# fails when reading time is less than or equal to 0
+
 Diary:
 
-# fails with no entries
+# returns empty array
+
+# fails with reading time that is less than 0
+
+# returns zero when contents is 0
+
+# no entries returns nil (find)
